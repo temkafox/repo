@@ -6,13 +6,13 @@
 #    By: ldonnis <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/23 15:33:21 by ldonnis           #+#    #+#              #
-#    Updated: 2018/12/23 15:41:36 by ldonnis          ###   ########.fr        #
+#    Updated: 2019/01/08 18:06:57 by ldonnis          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = gcc
 NAME = gnl
-FLAG = -Wall -Wextra -Werror
+FLAG = -Wall -Wextra -Werror -ggdb
 SRC = main.c get_next_line.c
 OBJ = $(SRC:.c=.o)
 
